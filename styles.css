@@ -1,0 +1,39 @@
+.circle-container {
+  height: 90px;
+  width: 90px;
+  background-color: #87bec8;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+.outer-circle {
+  height: 70px;
+  width: 70px;
+  background-color: #2991D8 ;
+  border-radius: 50%;
+  position: absolute;
+    left: 10px;
+    top: 10px;
+  display: inline-block;
+}
+
+.inner-circle {
+  height: 50px;
+  width: 50px;
+  background-color: #F7A855;
+  border-radius: 50%;
+  position: absolute;
+    left: 10px;
+    top: 10px;
+  display: inline-block;
+}
+
+.linktree {
+  height: 60px;
+  width: 60px;
+  position: relative;
+    left: 100px;
+
+  display: inline-block;
+}
