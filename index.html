@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <meta charset="utf-8" />
     <title>jamesfinnerty.eth</title>
     <meta
@@ -11,20 +13,75 @@
         margin: 15px auto;
         max-width: 650px;
         line-height: 1.2;
-        font-family: sans-serif;
+        font-family: Helvetica, sans-serif;
         font-size: 2em;
-        color: #fff;
-        background: #444;
+        font-weight: lighter;
+        color: #87bec8;
+        background: #000;
       }
+
+      a:link {
+  color: #61B45D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F7A855;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a01e14;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
     </style>
   </head>
   <body>
-    <h1>jamesfinnerty.eth</h1>
-    <p>Site under construction</p>
-    <p>In the meantime check out my <a href="https://linktr.ee/jamesfinnerty">linktree</a> 
-        and buy some <a href="https://opensea.io/collection/an-ocean-nft-ep">NFTs</p>
-    <p hidden><a href="about.html">About this website</a></p>
-    <p hidden><a href="html_image.html">Here is nice picture</a></p>
+    <h2 style="font-weight:lighter;">jamesfinnerty.eth</h2>
 
+    <p><a href="https://linktr.ee/jamesfinnerty" target="_blank">
+    <div class='circle-container'>
+      <div class='outer-circle'>
+        <div class="inner-circle">
+          <div class="arrow-right">
+            <div class="linktree">linktree</div>
+        </div>
+        </div>
+        </div>
+    </div></a>
+
+<img src="chromie-0832.jpeg" alt="chromie-0832" style="float:right;width:100px;height:100px;">
+
+        <p>
+          <nft-card
+          contractAddress="0x495f947276749ce646f68ac8c248420045cb7b5e"
+          tokenId="91565072237648634062131331141526678513832689156824610017305776545911508303882">
+          </nft-card>
+        </p>
+
+        <p>
+          <nft-card
+          contractAddress="0x495f947276749ce646f68ac8c248420045cb7b5e"
+          tokenId="91565072237648634062131331141526678513832689156824610017305776542612973420554">
+        </nft-card>
+        </p>
+
+        <p>
+          <nft-card
+          contractAddress="0x495f947276749ce646f68ac8c248420045cb7b5e"
+          tokenId="91565072237648634062131331141526678513832689156824610017305776543712485048330">
+        </nft-card>
+      </p>
+
+      <p style="text-align:center;font-size:15px">© 2021 James Finnerty</p>
   </body>
 </html>
