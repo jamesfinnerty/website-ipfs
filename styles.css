@@ -37,3 +37,7 @@
 
   display: inline-block;
 }
+
+.aligncenter {
+    text-align: center;
+}
