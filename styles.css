@@ -1,6 +1,6 @@
 body {
   margin: 15px auto;
-  max-width: 800px;
+  max-width: 550px;
   line-height: 1.2;
   font-family: Helvetica, sans-serif;
   font-size: 2em;
@@ -99,19 +99,19 @@ div.drop {
 
 @media screen and (max-width: 600px) {
   div.drop {
-    font-size: 40px;
+    font-size: 36px;
   }
 }
 
 @media screen and (min-width: 600px) {
   div.venue {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
 @media screen and (max-width: 600px) {
   div.venue {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -123,6 +123,6 @@ div.drop {
 
 @media screen and (max-width: 600px) {
   div.footer {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
