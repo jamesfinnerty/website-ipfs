@@ -86,11 +86,6 @@ a:active {
   display: inline-block;
 }
 
-div.drop {
-  background-color: #454242;
-  padding: 20px;
-}
-
 @media screen and (min-width: 600px) {
   div.drop {
     font-size: 30px;
