@@ -34,10 +34,15 @@
   width: 60px;
   position: relative;
     left: 100px;
-
   display: inline-block;
 }
 
 .aligncenter {
     text-align: center;
 }
+
+img{
+    width:100%;
+    max-width:600px;
+}
+
