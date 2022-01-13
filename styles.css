@@ -1,3 +1,52 @@
+body {
+  margin: 15px auto;
+  max-width: 800px;
+  line-height: 1.2;
+  font-family: Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  color: #87bec8;
+  background: #000;
+  }
+
+.aligncenter {
+  text-align: center;
+  }
+
+img {
+  height: auto;
+  width:100%;
+  max-width:600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: attr(width) / attr(height);
+  }
+
+a:link {
+  color: #61B45D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F7A855;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a01e14;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .circle-container {
   height: 90px;
   width: 90px;
@@ -33,16 +82,47 @@
   height: 60px;
   width: 60px;
   position: relative;
-    left: 100px;
+  left: 100px;
   display: inline-block;
 }
 
-.aligncenter {
-    text-align: center;
+div.drop {
+  background-color: #454242;
+  padding: 20px;
 }
 
-img{
-    width:100%;
-    max-width:600px;
+@media screen and (min-width: 600px) {
+  div.drop {
+    font-size: 30px;
+  }
 }
 
+@media screen and (max-width: 600px) {
+  div.drop {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  div.venue {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.venue {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  div.footer {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.footer {
+    font-size: 22px;
+  }
+}
