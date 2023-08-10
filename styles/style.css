@@ -1,12 +1,23 @@
 html {
-    font-size: 10px;
     background-color: #a2e5f4;
+  }
+
+  a:hover {
+    color: #da6270;
+  }
+
+  .text {
+    font-size: 26px;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .text {
+      font-size: 40px;
+    }
   }
 
   h1 {
     font-family: 'Train One', sans-serif;
-    font-size: 73px;
-    letter-spacing: 1px;
     text-shadow: 2px 2px 2px #faf793;
     text-align: center;
     margin: 4px;
@@ -26,12 +37,7 @@ a,
     color: #636b79;
   }
 
-  a:hover {
-    color: #da6270;
-  }
-
   h2 {
-    font-size: 30px;
     text-shadow: 1px 1px 1px #faf793;
     text-align: center;
 
@@ -39,7 +45,6 @@ a,
 
   p,
   li {
-  font-size: 16px;
   line-height: 1.5;
   }
 
